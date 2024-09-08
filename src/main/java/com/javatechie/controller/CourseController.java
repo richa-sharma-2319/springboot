@@ -68,5 +68,10 @@ public class CourseController {
         return "Hello Techie , AWS CICD Example working fine !";
     }
 
+      @GetMapping("/Devops")
+    public String study() {
+        return "Hello Techie , learn teraform and kubernetes !";
+    }
+
 
 }
